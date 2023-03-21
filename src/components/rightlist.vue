@@ -211,7 +211,7 @@ export default {
   /*box-shadow: inset 0 -70px 100px -50px rgba(0,0,0,.5);*/
 }
 .rightlistBox .r1-head img {
-  width: 100%;
+  width: 50%;
   min-height: 100px;
 }
 .rightlistBox .r1-head h1 {

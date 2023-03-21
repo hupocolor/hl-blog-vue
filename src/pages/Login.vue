@@ -2,9 +2,7 @@
 <template>
     <div>
         <div class="container">
-            <h1 class="loginTitle">
-
-            </h1>
+            <h1 class="loginTitle">欢迎使用狐狸博客</h1>
             <!-- 登录注册 -->
             <div v-show="!err2005" class="">
                 <div v-if="login==1" class="loginBox">
@@ -234,11 +232,19 @@ import {setToken} from '../utils/auth.js'
 
 <style>
 /*登录注册标题*/
+.container{
+
+}
 .loginTitle{
-    text-align: center;
-    font-size: 26px;
-    padding-top:50px;
-    margin-bottom: 20px;
+  text-align: center;
+  font-size: 30px;
+  padding-top:100px;
+  padding-bottom: 50px;
+  margin-bottom: 20px;
+  font-family: "STKaiti", "楷体", "KaiTi", "SimKai", "华文楷体", sans-serif;
+  text-shadow: 1px 1px 1px #ccc;
+  -webkit-box-reflect: below -100px linear-gradient(transparent, rgba(0,0,0,0.1));
+  box-reflect: below 0px linear-gradient(transparent, rgba(0,0,0,0.1));
 }
 .loginBox ,.registerBox{
     background: #fff;
